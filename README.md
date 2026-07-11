@@ -42,3 +42,7 @@ ignatius-day-fund-splitter/
 ## Status
 
 Built for a one-off college event. Roster and role list are specific to this class but easy to adapt — edit the seed data in `script.js`.
+
+## Built with Claude
+
+All three source files (index.html, style.css, script.js) for this project were drafted and iterated on with Claude, an AI assistant made by Anthropic. Requirements, the fund-splitting algorithm, and design decisions were directed by Sanil-Sth ; Claude handled the code generation.
