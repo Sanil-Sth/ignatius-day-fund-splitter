@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ignatius Day Fund Splitter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="header-inner">
+        <h1 class="app-title">Ignatius Day Fund Splitter</h1>
+        <div class="theme-toggle" id="themeToggle" role="group" aria-label="Theme">
+          <div class="theme-highlight" id="themeHighlight"></div>
+          <button type="button" class="theme-btn" data-theme-choice="light">☀&nbsp; Light</button>
+          <button type="button" class="theme-btn" data-theme-choice="dark">●&nbsp; Dark</button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tab-switcher" id="tabSwitcher" role="tablist" aria-label="Sections">
+      <div class="tab-highlight" id="tabHighlight"></div>
+      <button class="tab-btn" data-tab="roster" role="tab" aria-selected="true">Roster</button>
+      <button class="tab-btn" data-tab="budget" role="tab" aria-selected="false">Budget</button>
+      <button class="tab-btn" data-tab="results" role="tab" aria-selected="false">Results</button>
+    </nav>
+
+    <main id="content">
+      <section id="section-roster" class="tab-panel"></section>
+      <section id="section-budget" class="tab-panel"></section>
+      <section id="section-results" class="tab-panel"></section>
+    </main>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
